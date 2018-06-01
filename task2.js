@@ -2,7 +2,7 @@ var args = process.argv.slice(2);
 var s = args[0];
 var k = parseInt(args[1]);
 
-var caesarCypher = function(str, shift) {
+function caesarCypher(str, shift) {
     var output = '';
     for (var i = 0; i < str.length; i ++) {
         var c = str[i];
@@ -19,6 +19,6 @@ var caesarCypher = function(str, shift) {
         output += c;
     }
    return output;
-};
+}
 
 console.log(caesarCypher(s, k));
