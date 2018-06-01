@@ -1,6 +1,3 @@
-/* Task 1 */
-
-/* Put your code here */
 var args = process.argv.slice(2);
 var n = args[0];
 var e = args[1];
