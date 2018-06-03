@@ -18,7 +18,7 @@ function caesarCypher(str, shift) {
         }
         output += c;
     }
-   return output;
+    return output;
 }
 
 console.log(caesarCypher(s, k));
